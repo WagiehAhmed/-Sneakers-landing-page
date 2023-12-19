@@ -13,8 +13,8 @@ export default function HomeSection() {
       <Box
         sx={{
           padding: 3,
-          paddingTop:"300px",
-          paddingLeft:"300px",
+          paddingTop:{xs:"300px",md:"300px"},
+          paddingLeft:{xs:0,md:"300px"},
           minWidth: { sm: "500px", lg: "600px", xl: "800px" },
           bgcolor: "blue",
         }}
@@ -71,8 +71,8 @@ export default function HomeSection() {
         <Box
           sx={{
             position: "absolute",
-            top: "80px",
-            right: "300px",
+            top: {xs: "50px", md:"80px"},
+            right: {xs: "50px", md:"300px"},
             width: { xs: "380px", sm: "400px" },
             height: { xs: "330px", sm: "400px" },
             bgcolor: "black",
