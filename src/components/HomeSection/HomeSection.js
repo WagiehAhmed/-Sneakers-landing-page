@@ -7,16 +7,16 @@ export default function HomeSection() {
         boxSizing: "border-box",
         height: { xs: "100vh" },
         position: "relative",
-        bgcolor: "red",
+        // bgcolor: "red",
       }}
     >
       <Box
         sx={{
           padding: 3,
-          paddingTop:{xs:"400px",md:"300px"},
-          paddingLeft:{xs:"15px",md:"300px"},
+          paddingTop:{xs:"400px",sm:"450px",md:"360px"},
+          paddingLeft:{xs:"15px",sm:"25px",md:"100px",lg:"150px",xl:"300px"},
           minWidth: { sm: "500px", lg: "600px", xl: "800px" },
-          bgcolor: "blue",
+          // bgcolor: "blue",
         }}
       >
 
@@ -72,11 +72,11 @@ export default function HomeSection() {
         <Box
           sx={{
             position: "absolute",
-            top: {xs: "50px", md:"80px"},
-            right: {xs: "50px", md:"300px"},
+            top: {xs: "50px",md:"20px",lg:"60px",xl:"150px"},
+            right: {xs: "50px",sm:"150px", md:"50px",lg:"150px",xl:"300px"},
             width: { xs: "380px", sm: "400px" },
             height: { xs: "330px", sm: "400px" },
-            bgcolor: "black",
+            // bgcolor: "black",
           }}
           className={HomeSectionStyles.circle}
         >
