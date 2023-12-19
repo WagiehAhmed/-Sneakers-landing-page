@@ -19,6 +19,7 @@ export default function HomeSection() {
           bgcolor: "blue",
         }}
       >
+        
         <Typography
           variant="h6"
           sx={{ textTransform: "capitalize", fontWeight: "bold" }}
