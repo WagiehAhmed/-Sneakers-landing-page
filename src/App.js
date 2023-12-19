@@ -7,7 +7,7 @@ import '@fontsource/roboto/700.css';
 function App() {
   return (
     <div >
-    app
+    app sneakers
     </div>
   );
 }
