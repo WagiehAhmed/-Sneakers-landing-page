@@ -13,13 +13,13 @@ export default function HomeSection() {
       <Box
         sx={{
           padding: 3,
-          paddingTop:{xs:"300px",md:"300px"},
-          paddingLeft:{xs:0,md:"300px"},
+          paddingTop:{xs:"400px",md:"300px"},
+          paddingLeft:{xs:"15px",md:"300px"},
           minWidth: { sm: "500px", lg: "600px", xl: "800px" },
           bgcolor: "blue",
         }}
       >
-        
+
         <Typography
           variant="h6"
           sx={{ textTransform: "capitalize", fontWeight: "bold" }}
